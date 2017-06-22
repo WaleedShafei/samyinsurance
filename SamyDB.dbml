@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SamyDatabase" Class="SamyDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost;Initial Catalog=SamyDatabase;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SamyDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Bounsprod" Member="Bounsprods">
+    <Type Name="Bounsprod">
+      <Column Name="cur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ins" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="yer" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="bon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="fdat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="tdat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.curn" Member="curns">
+    <Type Name="curn">
+      <Column Name="cod" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="nam" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="engnam" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.infac" Member="infacs">
+    <Type Name="infac">
+      <Column Name="no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idf" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idt" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sen" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="qx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="lx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dd" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="vx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="mx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeesFiles" Member="EmployeesFiles">
+    <Type Name="EmployeesFile">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[File]" Member="File" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PostedFileDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LoggedUserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LoggedUserPassword" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.instyp" Member="instyps">
+    <Type Name="instyp">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nam" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.prodins" Member="prodins">
+    <Type Name="prodin">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ser" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="brtd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="brth2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="moda" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mab" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="strd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="kst" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="prm" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ksty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dentyp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="denval" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="kst1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nsb1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="esh1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="kst2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nsb2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="esh2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="kst3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nsb3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="esh3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="kst4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nsb4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="esh4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om11" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om21" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om31" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om41" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om51" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om12" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om22" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om32" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om42" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om52" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om13" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om23" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om33" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om43" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om53" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om14" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om24" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om34" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om44" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="om54" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ded" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sts" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="nam" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="nam2" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="adr" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="life" Type="System.String" DbType="NChar(225)" CanBeNull="true" />
+      <Column Name="deth" Type="System.String" DbType="NChar(225)" CanBeNull="true" />
+      <Column Name="phon" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="phon2" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="amil" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="rkm" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="tday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="nam3" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="pos1" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="pos2" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="pos3" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="adr1" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="adr2" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="adr3" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="numall1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="numall2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="numall3" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cur" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="he1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="he2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="doc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rpos1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rpos2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rhel1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rhel2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="racc1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="racc2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rdep1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rdep2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rpen1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rpen2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pascod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="omok" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="modasdad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pen1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pen2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pen3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pen4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="penall" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_bouns" Member="T_bouns">
+    <Type Name="T_boun">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ser" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="modd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kstyer" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rat1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rat2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="rat3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="calc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="calcrat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_dentyp" Member="T_dentyps">
+    <Type Name="T_dentyp">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nam" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_doc" Member="T_docs">
+    <Type Name="T_doc">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="doc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_docjop" Member="T_docjops">
+    <Type Name="T_docjop">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ser" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nam" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_docnam" Member="T_docnams">
+    <Type Name="T_docnam">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nam" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_instypnams" Member="T_instypnams">
+    <Type Name="T_instypnam">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nam" Type="System.String" DbType="Char(80)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_kst9" Member="T_kst9s">
+    <Type Name="T_kst9">
+      <Column Name="cod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="moda" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="kst" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="edk" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="omm" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="oms" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_passcod" Member="T_passcods">
+    <Type Name="T_passcod">
+      <Column Name="passcod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="usernam" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="pasword" Type="System.String" DbType="NChar(14) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SessionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

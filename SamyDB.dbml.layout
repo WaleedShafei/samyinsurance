@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15, 21.125" name="SamyDB">
+  <DataContextMoniker Name="/SamyDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="bb355bd1-c049-4ab1-b0da-567752d0904e" absoluteBounds="0.75, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SamyDBDataContext/Bounsprod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7cc8c343-5ef9-45c0-8a62-da545fb1693a" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a30120d8-9c5b-4cf4-a115-45270896cff5" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SamyDBDataContext/curn" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9f643e9-582a-42ad-90af-582b6297b2fc" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ccc5a3a0-20a1-4ff1-934c-c66c417fa40a" absoluteBounds="0.75, 3.75, 2, 3.6939111328124992">
+      <DataClassMoniker Name="/SamyDBDataContext/infac" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8208a3cd-39d8-4236-a1aa-de64929dd523" absoluteBounds="0.765, 4.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="597ef69a-ce2b-4055-955a-f79eb4e97f41" absoluteBounds="3.75, 3.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/SamyDBDataContext/EmployeesFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0311ffac-0360-49f7-83c8-6c656556707e" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d04b63a-e6c2-4b11-bcbb-c2639faf855a" absoluteBounds="6.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SamyDBDataContext/instyp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25166397-8213-45e9-a061-ebcf2e816f3f" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a644c591-f9f4-43ed-af63-3cbd9ce57987" absoluteBounds="6.75, 2.75, 2, 18.116518554687502">
+      <DataClassMoniker Name="/SamyDBDataContext/prodin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab4c3693-c153-4d72-9ca2-cd7621de73ca" absoluteBounds="6.765, 3.21, 1.9700000000000002, 17.5565185546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ddca024c-36bf-48cf-9451-457cfa4afb68" absoluteBounds="0.75, 8.75, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/SamyDBDataContext/T_boun" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32cbdd65-ff3c-485d-8fd3-bc6e01b5bc84" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bab40a7e-598b-4e58-b144-8385be82ceff" absoluteBounds="9.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SamyDBDataContext/T_dentyp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="11be0c7a-bd26-4b8a-b3a5-e79bdb6970bf" absoluteBounds="9.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e4d7339-7e68-4218-a840-189d751bc99b" absoluteBounds="9.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SamyDBDataContext/T_doc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9743dd96-e96d-4e89-9d1a-523b2c11713e" absoluteBounds="9.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="47aa2d8e-61b0-4de2-af75-3390eb51eff2" absoluteBounds="9.75, 4.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SamyDBDataContext/T_docjop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85e82313-3c85-4301-ae95-adf3c021215e" absoluteBounds="9.765, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="696ea4a9-2cc0-4daf-9680-0e61cd400306" absoluteBounds="9.75, 7.75, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/SamyDBDataContext/T_docnam" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32a34880-7513-4b0c-ad37-5e320588fd51" absoluteBounds="9.765, 8.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f4f44ac6-3415-4e92-b117-5cab4e308219" absoluteBounds="9.75, 10.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/SamyDBDataContext/T_instypnam" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80ea94cd-eca7-47dc-b2b5-ba3a2544297f" absoluteBounds="9.765, 11.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c0dddf4-dde5-41e6-99c2-6c00f42942eb" absoluteBounds="12.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/SamyDBDataContext/T_kst9" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24adebc4-3f9e-4c8a-b605-873301eb1ba4" absoluteBounds="12.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="028bde6a-ab8d-47a0-86e3-b27982f7bc15" absoluteBounds="0.75, 12.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/SamyDBDataContext/T_passcod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8d40a6bb-af0a-4dee-b3eb-eda506060272" absoluteBounds="0.765, 13.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94361aaa-8075-4bba-8fdb-7d15f39bf6c5" absoluteBounds="12.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SamyDBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="237bed53-ddbb-42e8-bebd-ab47ca74bf09" absoluteBounds="12.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
